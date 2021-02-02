@@ -14,9 +14,8 @@ let
 
   allUsers = lib.collect isFunction users;
 
-
   suites = with profiles; rec {
-    work = [ develop virt users.nixos users.root ];
+    work = [ develop virt users.nrd ];
 
     graphics = work ++ [ graphical ];
 
