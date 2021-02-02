@@ -15,7 +15,7 @@ let
   allUsers = lib.collect isFunction users;
 
   suites = with profiles; rec {
-    work = [ develop virt users.nrd ];
+    work = [ develop virt users.nrd ci-agent ];
 
     graphics = work ++ [ graphical ];
 
