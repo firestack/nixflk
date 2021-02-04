@@ -12,7 +12,11 @@ let
     in
     lib.collect isFunction sansCore;
 
-  allUsers = lib.collect isFunction users;
+  allUsers =
+    let
+      filtered = lib.filterAttrs (n: _: n != "nrd") users;
+    in
+    lib.collect isFunction filtered;
 
   suites = with profiles; rec {
     work = [ develop virt users.nrd ci-agent ];
