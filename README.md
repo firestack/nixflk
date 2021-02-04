@@ -1,5 +1,7 @@
-> Since flakes are still quite new, I've listed some learning resources
-> [below](#resources).
+# ⚠ Deprecated branch ⚠
+This branch has been deprecated in favor of the new core/community model.
+Head there [now](https://github.com/nrdxp/nixflk/tree/core). The default branch
+wwill become `core` on February 5, 2021.
 
 # Introduction
 Herein lies a [NixOS][NixOS] configuration template using the new [flakes][wiki]
