@@ -8,3 +8,4 @@
   - [Hosts](./layout/hosts.md)
   - [Profiles](./layout/profiles.md)
   - [Suites](./layout/suites.md)
+  - [Users](./layout/users.md)
