@@ -6,3 +6,4 @@
   - [From NixOS](./start/from-nixos.md)
 - [Layout](./layout/layout.md)
   - [Hosts](./layout/hosts.md)
+  - [Profiles](./layout/profiles.md)

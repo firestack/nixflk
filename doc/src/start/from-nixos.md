@@ -23,8 +23,8 @@ your region. Keep in mind that `networking.hostName` with be automatically
 set to the filename of your hosts file, so `hosts/my-host.nix` will have the
 hostname `my-host`.
 
-Now might be a good time to read the docs on [suites](./suites.md) and
-[profiles](./profiles.md) and add or create any that you need.
+Now might be a good time to read the docs on [suites](../layout/suites.md) and
+[profiles](../layout/profiles.md) and add or create any that you need.
 
 # Installation
 
