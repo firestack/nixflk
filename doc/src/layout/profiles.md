@@ -9,10 +9,10 @@ For the sake of consistency, there are a few minor constraints. First of all, a
 profile should always be defined in a `default.nix`, and it should always be a
 a function taking a single attribute set as an argument, and returning a NixOS
 module which does not define any new module options. If you need to make new
-module option declarations, just use [modules](./modules).
+module option declarations, just use [modules](./modules.md).
 
 These restrictions help simplify the import logic used to pass profles to
-[suites](./suites).
+[suites](./suites.md).
 
 ### Example
 ✔`profiles/develop/default.nix`:
@@ -45,4 +45,4 @@ Profiles are the most important concept in nixflk. They allow us to keep our
 nix expressions self contained and modular. This way we can maximize reuse
 while minimizing boilerplate. Always strive to keep your profiles as generic
 and modular as possible. Anything machine specific belongs in your
-[host](./hosts) files.
+[host](./hosts.md) files.
