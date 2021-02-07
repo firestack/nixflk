@@ -7,3 +7,4 @@
 - [Layout](./layout/layout.md)
   - [Hosts](./layout/hosts.md)
   - [Profiles](./layout/profiles.md)
+  - [Suites](./layout/suites.md)
