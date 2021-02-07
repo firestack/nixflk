@@ -4,7 +4,7 @@ for any host. A good example is the configuration for a text editor, or
 window manager. If you need some concrete examples, just checkout the
 community [branch](https://github.com/nrdxp/nixflk/tree/community/profiles).
 
-## Constaints
+## Constraints
 For the sake of consistency, there are a few minor constraints. First of all, a
 profile should always be defined in a `default.nix`, and it should always be a
 a function taking a single attribute set as an argument, and returning a NixOS
