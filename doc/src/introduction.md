@@ -6,6 +6,11 @@ like [home-manager][home-manager], setting clear guidelines, offering useful
 conveniences, and eliminating boilerplate so you can focus on deploying your
 systems.
 
+In addition, every package and NixOS profile is built and uploaded to a binary
+cache, so everything provided is available without building anything. This is
+especially useful for the packages that are pulled from master, as without the
+cache, rebuilds are quite frequent.
+
 ## Community Profiles
 There are two branches from which to choose: core and community. The commuity
 branch builds on core and includes several ready-made profiles for

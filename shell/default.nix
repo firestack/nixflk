@@ -55,6 +55,7 @@ pkgs.devshell.mkShell {
     nixos-generate-config
     nixos-enter
     mdbook
+    cachix
   ];
 
   env = { inherit name; };

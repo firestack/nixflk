@@ -14,12 +14,15 @@ nix-shell
 git init
 git add .
 git commit -m init
+
+cachix use nrdxp
 ```
 > You can change `core` to `community` in the call to `flk get`
 
 This will place you in a new folder named `flk` in the current directory with
 git set up, and a nix-shell that provides all the dependencies, including the
-required nix version.
+required nix version. In addition, the cachix cache which contains all the
+binary outputs from this flake is added for faster deployment.
 
 ## Next Steps:
 - [Make installable ISO](./iso.md)
