@@ -3,6 +3,8 @@
 {
   imports = suites.goPlay;
 
+  time.timeZone = "America/Denver";
+
   environment.systemPackages = with pkgs; [
     system76-firmware
     obs-studio
